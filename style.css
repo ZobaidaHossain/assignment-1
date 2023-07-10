@@ -1,13 +1,15 @@
+*{
+    margin:0 auto;
+    padding: 0px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Lato', sans-serif;
 
 }
-*{
-    margin:0 auto;
-    padding: 0px;
-}
+
 .banner{
+    width: 100%;
     padding:30px 30px 0px 150px;
     display:flex;
     align-items: center;
@@ -18,7 +20,9 @@ body{
 
 .banner .imag{
     width: 635px;
-
+    margin: 50px 240px 0px 97px;
+ 
+   
 }
 .banner .greeting{
     color: #272727;
@@ -26,7 +30,6 @@ font-size: 80px;
 font-style: normal;
 font-weight: 800;
 margin:197px 97px 32px 240px;
-
 
 }
 
@@ -36,6 +39,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 margin:32px 171px 32px 240px;
+
 
 }
 .btn1{
@@ -49,4 +53,27 @@ color: #FFF;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
+}
+
+/*main section style*/
+.feature{
+    width: 1920px;
+height: 4867px;
+}
+.feature .feh{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+margin:178px 758px 24px;
+}
+.feature .fep{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin:24px 663px 48px 663px;
+
 }
